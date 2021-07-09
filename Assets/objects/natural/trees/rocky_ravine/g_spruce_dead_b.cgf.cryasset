@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="d2f0b7e2-b3c3-d93c-02f2-3815737ebf0d">
+ <Files>
+  <File path="g_spruce_dead_b.cgf"/>
+  <File path="g_spruce_dead_b_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">7</Detail>
+  <Detail name="triangleCount">378</Detail>
+  <Detail name="vertexCount">375</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./spruce.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

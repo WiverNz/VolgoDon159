@@ -1,0 +1,97 @@
+<UIElements name="HudElements">
+  <!-- definition of an UI element named "MainMenu" -->
+  <UIElement name="MainMenu" mouseevents="1" keyevents="1" cursor="1">
+    <!-- gfx/swf file for this UI element -->
+    <GFx file="GfxResources/MainMenu.gfx" layer="1">
+      <!-- the align mode of this element -->
+      <Constraints>
+        <Align mode="fullscreen" />
+      </Constraints>
+    </GFx>
+    <!-- available functions -->
+    <functions>
+      <function name="SetResumeGameState" funcname="_root.SetResumeGameState">
+        <param name="isResumeGameState" desc="" type="Boolean"/>
+      </function>
+      <function name="LoadCrySettings" funcname="_root.LoadCrySettings">
+        <param name="cryJsonSettings" desc="" type="String"/>
+      </function>
+      <function name="SetExtendDebug" funcname="_root.SetExtendDebug">
+        <param name="isExtendDebug" desc="Enable extend debug" type="Boolean"/>
+      </function>
+    </functions>
+
+    <!-- available events that are raised by the Flash asset -->
+    <events>
+      <event name="StartGame" fscommand="start" desc="Start game" />
+      <event name="ResumeGame" fscommand="resume" desc="Resume game" />
+      <event name="ExitGame" fscommand="exit" desc="Exit game" />
+      <event name="PlaySound" fscommand="playSound">
+        <param name="soundName" desc="Sound file to play"/>
+      </event>
+      <event name="ApplySettings" fscommand="applySettings">
+        <param name="crySettings" desc="A json string with the following format: {'parameter': intVal, 'parameter': 'stringVal'}"/>
+      </event>
+    </events>
+
+    <!-- available variables -->
+    <variables>
+    </variables>
+
+    <!-- available arrays -->
+    <Arrays>
+    </Arrays>
+
+    <!-- available movieclips -->
+    <MovieClips>
+    </MovieClips>
+  </UIElement>
+  <!-- definition of an UI element named "ShipInterface" -->
+  <UIElement name="ShipInterface" keyevents="1">
+    <!-- gfx/swf file for this UI element -->
+    <GFx file="GfxResources/ShipInterface.gfx" layer="1">
+      <!-- the align mode of this element -->
+      <Constraints>
+        <Align mode="fullscreen" />
+      </Constraints>
+    </GFx>
+    <!-- available functions -->
+    <functions>
+      <function name="SetValuesJson" funcname="_root.SetValuesJson">
+        <param name="jsonValuesString" desc="Json Values String" type="String"/>
+      </function>
+      <function name="SetCoordinates" funcname="_root.SetCoordinates">
+        <param name="latCoord" desc="Latitude coordinate" type="Number"/>
+		<param name="longCoord" desc="Longitude coordinate" type="Number"/>
+      </function>
+      <function name="SetRudderValue" funcname="_root.SetRudderValue">
+        <param name="rudderValue" desc="Rudder value" type="Number"/>
+      </function>
+      <function name="SetSpeedValue" funcname="_root.SetSpeedValue">
+        <param name="speedValue" desc="Speed value" type="Number"/>
+      </function>
+      <function name="SetRateOfTurn" funcname="_root.SetRateOfTurn">
+        <param name="rateOfTurn" desc="Rate of turn" type="Number"/>
+      </function>
+      <function name="SetCourseDegree" funcname="_root.SetCourseDegree">
+        <param name="courseDegree" desc="Course degree" type="Number"/>
+      </function>
+      <function name="SetAccelerationValue" funcname="_root.SetAccelerationValue">
+        <param name="accelerationValue" desc="Acceleration value" type="Number"/>
+      </function>
+      <function name="SetEnginesMaxRpm" funcname="_root.SetEnginesMaxRpm">
+        <param name="maxRpm" desc="Max RPM" type="Number"/>
+      </function>
+      <function name="SetEnginesCurrRpm" funcname="_root.SetEnginesCurrRpm">
+        <param name="currRpm" desc="Current RPM" type="Number"/>
+      </function>
+      <function name="SetDepthValue" funcname="_root.SetDepthValue">
+        <param name="currDepth" desc="Current depth" type="Number"/>
+      </function>
+      <function name="SetExtendDebug" funcname="_root.SetExtendDebug">
+        <param name="isExtendDebug" desc="Enable extend debug" type="Boolean"/>
+      </function>
+    </functions>
+
+  </UIElement>
+</UIElements>

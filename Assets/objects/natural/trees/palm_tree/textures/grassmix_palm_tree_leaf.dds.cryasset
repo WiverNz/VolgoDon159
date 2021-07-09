@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="d8e0647e-c5ba-f105-99b3-5251fc0435ce">
+ <Files>
+  <File path="grassmix_palm_tree_leaf.dds"/>
+  <File path="grassmix_palm_tree_leaf.dds.1"/>
+  <File path="grassmix_palm_tree_leaf.dds.2"/>
+  <File path="grassmix_palm_tree_leaf.dds.3"/>
+  <File path="grassmix_palm_tree_leaf.dds.4"/>
+  <File path="grassmix_palm_tree_leaf.dds.5"/>
+  <File path="grassmix_palm_tree_leaf.dds.6"/>
+  <File path="grassmix_palm_tree_leaf.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

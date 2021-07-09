@@ -1,0 +1,4 @@
+var structformatter_3_01std_1_1chrono_1_1time__point_3_01std_1_1chrono_1_1system__clock_01_4_00_01_char_01_4 =
+[
+    [ "format", "structformatter_3_01std_1_1chrono_1_1time__point_3_01std_1_1chrono_1_1system__clock_01_4_00_01_char_01_4.html#a8ce6042573ecdb6d7ad5e0128cdc0f20", null ]
+];

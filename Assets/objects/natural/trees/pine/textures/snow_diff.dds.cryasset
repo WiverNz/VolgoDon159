@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="6dfb0c68-5027-37a4-8b86-e8ed2f65d445">
+ <Files>
+  <File path="snow_diff.dds"/>
+  <File path="snow_diff.dds.1"/>
+  <File path="snow_diff.dds.2"/>
+  <File path="snow_diff.dds.3"/>
+  <File path="snow_diff.dds.4"/>
+  <File path="snow_diff.dds.5"/>
+  <File path="snow_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

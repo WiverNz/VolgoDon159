@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="76449026-8b07-5b08-e3c8-54949b7a81a8">
+ <Files>
+  <File path="spruce_trunk_dead_displ.dds"/>
+  <File path="spruce_trunk_dead_displ.dds.1"/>
+  <File path="spruce_trunk_dead_displ.dds.2"/>
+  <File path="spruce_trunk_dead_displ.dds.3"/>
+  <File path="spruce_trunk_dead_displ.dds.4"/>
+  <File path="spruce_trunk_dead_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

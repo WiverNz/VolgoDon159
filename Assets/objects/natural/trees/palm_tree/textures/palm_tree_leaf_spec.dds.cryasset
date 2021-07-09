@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="435a57d1-8ba5-2fb9-ae63-38448704d07c">
+ <Files>
+  <File path="palm_tree_leaf_spec.dds"/>
+  <File path="palm_tree_leaf_spec.dds.1"/>
+  <File path="palm_tree_leaf_spec.dds.2"/>
+  <File path="palm_tree_leaf_spec.dds.3"/>
+  <File path="palm_tree_leaf_spec.dds.4"/>
+  <File path="palm_tree_leaf_spec.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="722a43f1-0d41-66a1-305f-72d8baf6975c">
+ <Files>
+  <File path="lifering.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/AAA_CRYTEK_ASSETS/props/maritime/fisher_boat/textures/lifering_diff.dds</Path>
+  <Path usageCount="1">objects/AAA_CRYTEK_ASSETS/props/maritime/fisher_boat/textures/lifering_spec.dds</Path>
+  <Path usageCount="1">objects/AAA_CRYTEK_ASSETS/props/maritime/fisher_boat/textures/lifering_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

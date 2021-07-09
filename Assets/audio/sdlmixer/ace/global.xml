@@ -1,0 +1,27 @@
+<AudioSystemData name="global" version="5" triggers="5">
+ <ImplData events="5"/>
+ <Triggers>
+  <Trigger name="Click2">
+   <Event name="Click2.wav" type="start" volume="-14" enable_panning="true" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" loop_count="1"/>
+  </Trigger>
+  <Trigger name="Click1">
+   <Event name="Click1.wav" type="start" volume="0" enable_panning="true" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="99999" loop_count="1"/>
+  </Trigger>
+  <Trigger name="CreakingDoor">
+   <Event name="CreakingDoor.wav" type="start" volume="-14" enable_panning="true" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="101" loop_count="1"/>
+  </Trigger>
+  <Trigger name="menu_click">
+   <Event name="Click1.wav" type="start" volume="-14" enable_panning="true" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" loop_count="1"/>
+  </Trigger>
+  <Trigger name="squawk">
+   <Event name="squawk.ogg" type="start" volume="-14" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" loop_count="1"/>
+  </Trigger>
+ </Triggers>
+ <EditorData>
+  <Library />
+  <Folders />
+  <Controls>
+   <Trigger name="Click1" description="Click1"/>
+  </Controls>
+ </EditorData>
+</AudioSystemData>

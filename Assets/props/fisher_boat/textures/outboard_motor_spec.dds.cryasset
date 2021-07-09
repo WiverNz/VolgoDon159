@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="a915abc8-5ab8-9153-989c-6f4b20881d98">
+ <Files>
+  <File path="outboard_motor_spec.dds"/>
+  <File path="outboard_motor_spec.dds.1"/>
+  <File path="outboard_motor_spec.dds.2"/>
+  <File path="outboard_motor_spec.dds.3"/>
+  <File path="outboard_motor_spec.dds.4"/>
+  <File path="outboard_motor_spec.dds.5"/>
+  <File path="outboard_motor_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

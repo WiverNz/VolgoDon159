@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Texture" guid="794ef81f-63ab-d1a6-3720-29cad6d0ab34">
+ <Files>
+  <File path="thorn_ddna.dds"/>
+  <File path="thorn_ddna.dds.a"/>
+  <File path="thorn_ddna.dds.1"/>
+  <File path="thorn_ddna.dds.1a"/>
+  <File path="thorn_ddna.dds.2"/>
+  <File path="thorn_ddna.dds.2a"/>
+  <File path="thorn_ddna.dds.3"/>
+  <File path="thorn_ddna.dds.3a"/>
+  <File path="thorn_ddna.dds.4"/>
+  <File path="thorn_ddna.dds.4a"/>
+  <File path="thorn_ddna.dds.5"/>
+  <File path="thorn_ddna.dds.5a"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ShipTypes version="1">
+    <ShipType value="VolgoDon">
+        <ResourcePath value="Assets/props/volgo_don/volgo_don.cgf" />
+        <MaterialPath value="Assets/textures/volgo_don/volgo_don.mtl.cryasset" />
+        <SizeParams shipSize="12748.78" lenght="138.8" breadth="16.7" maxDraught="3.53" boardHeight="5.5" />
+        <SpeedParams maxSpeed="10" engineSpeed="1800" />
+        <WeightParams grossTonnage="4970" deadWeight="5000" displacement="6750" />
+        <Description>
+            VOLGO DON (IMO: 8959702) is a General Cargo that was built in 1973 (48 years ago). 
+            It's carrying capacity is 5150 t DWT. Her length overall (LOA) is 138.8 meters and her width is 16.7 meters.
+        </Description>
+    </ShipType>
+</ShipTypes>

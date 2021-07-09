@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="413858a7-26e9-19a1-4908-b433ed1058d2">
+ <Files>
+  <File path="scrub.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/trees/rocky_ravine/textures/scrub_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/rocky_ravine/textures/scrub_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

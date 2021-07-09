@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="913696b5-f67e-c90a-64f0-4e348732bd90">
+ <Files>
+  <File path="lifering.cgf"/>
+  <File path="lifering_lod1.cgf"/>
+  <File path="lifering_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">2560</Detail>
+  <Detail name="vertexCount">1520</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./lifering.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

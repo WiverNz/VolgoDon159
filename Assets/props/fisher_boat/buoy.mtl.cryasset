@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Material" guid="f8abc6ef-4845-dfbb-b5ff-594919b18d10">
+ <Files>
+  <File path="buoy.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">4</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/AAA_CRYTEK_ASSETS/props/maritime/fisher_boat/textures/rope_diff.dds</Path>
+  <Path usageCount="1">objects/AAA_CRYTEK_ASSETS/props/maritime/fisher_boat/textures/rope_ddn.dds</Path>
+  <Path usageCount="1">objects/AAA_CRYTEK_ASSETS/props/maritime/fisher_boat/textures/buoy.dds</Path>
+  <Path usageCount="1">objects/AAA_CRYTEK_ASSETS/props/maritime/fisher_boat/textures/buoy_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

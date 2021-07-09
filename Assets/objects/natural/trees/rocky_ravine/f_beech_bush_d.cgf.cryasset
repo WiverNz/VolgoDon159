@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="ba91e7b6-ee01-633d-e3fc-dc47b9db2242">
+ <Files>
+  <File path="f_beech_bush_d.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">112</Detail>
+  <Detail name="vertexCount">104</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./beech_bush.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

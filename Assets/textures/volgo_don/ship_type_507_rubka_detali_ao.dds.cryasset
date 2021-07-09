@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="ebbff8c7-bee0-5990-4c79-b6cd105f7b5f" source="ship_type_507_rubka_detali_ao.tif">
+ <Files>
+  <File path="ship_type_507_rubka_detali_ao.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

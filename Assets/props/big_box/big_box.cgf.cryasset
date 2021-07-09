@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="4274bcbe-d145-a278-a2ff-ff378721109c" source="big_box.fbx">
+ <Files>
+  <File path="big_box.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">12</Detail>
+  <Detail name="vertexCount">24</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">props/big_box/big_box.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

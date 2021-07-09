@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Material" guid="48dce32d-8718-6671-efce-0743446e034d">
+ <Files>
+  <File path="fishing_boat_green.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">6</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/AAA_CRYTEK_ASSETS/props/maritime/fisher_boat/textures/rope_diff.dds</Path>
+  <Path usageCount="1">objects/AAA_CRYTEK_ASSETS/props/maritime/fisher_boat/textures/rope_ddn.dds</Path>
+  <Path usageCount="2">objects/AAA_CRYTEK_ASSETS/props/maritime/fisher_boat/textures/fishing_boat.dds</Path>
+  <Path usageCount="1">objects/AAA_CRYTEK_ASSETS/props/maritime/fisher_boat/textures/fishing_boat_spec.dds</Path>
+  <Path usageCount="1">objects/AAA_CRYTEK_ASSETS/props/maritime/fisher_boat/textures/fishing_boat_ddn.dds</Path>
+  <Path usageCount="1">objects/AAA_CRYTEK_ASSETS/props/maritime/fisher_boat/textures/wood_fine_detail_horizontal.dds</Path>
+ </Dependencies>
+</AssetMetadata>

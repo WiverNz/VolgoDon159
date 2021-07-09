@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="491c207a-5096-b5cc-db4d-698286e08bd4" source="volgo_don.fbx">
+ <Files>
+  <File path="volgo_don.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">13</Detail>
+  <Detail name="triangleCount">42321</Detail>
+  <Detail name="vertexCount">64018</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">props/volgo_don/volgo_don.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

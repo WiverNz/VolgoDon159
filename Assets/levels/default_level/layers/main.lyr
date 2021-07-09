@@ -1,0 +1,83 @@
+<ObjectLayer>
+ <Layer Name="Main" FullName="Main" GUID="28b0f0b8-2d2c-8919-61cd-25adaf8fcda6" Hidden="0" Frozen="0" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1615216013">
+  <LayerObjects>
+   <Object Type="EntityWithComponent" Layer="Main" LayerGUID="28b0f0b8-2d2c-8919-61cd-25adaf8fcda6" Id="feb1d2b7-78e0-e1cf-44e0-91509d9bce2e" Name="MainShipSpawn" Pos="312.05322,1110.0706,37.922295" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="41316132-8a1e-4073-b0cd-a242ff3d2e90" TypeName="Navigation::CSpawnPointComponent" GUID="e9b7ef9b-c208-2ee3-e4f9-0fcf0df03270" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="-180"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties />
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Main" LayerGUID="28b0f0b8-2d2c-8919-61cd-25adaf8fcda6" Id="60e9ebef-1264-2d9f-ef38-c5104f326b23" Name="SampleShip" Pos="495.37137,855.92346,36.157028" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="207a2e52-3317-4638-b9b6-d1eae6ab980b" TypeName="Navigation::CShipMechanicsComponent" GUID="2feb9481-b65d-6c10-7bab-0bbd627259f4" Name="" UserAdded="true">
+      <properties ShipType="VolgoDon" ShipName="2feb9481-b65d-6c10-7bab-0bbd627259f4" Networked="false" EnabledByDefault="true" Resting="false" Type="Ship" SendCollisionSignal="true">
+       <Buoyancy Damping="1000" Density="1000" Resistance="10000"/>
+       <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+       <Physics Mass="5000000" Radius="10.45" Height="110.935" Capsule="false" GroundContactEps="0.40000001" SendCollisionSignal="true"/>
+       <Movement AirControl="0" AirResistance="0.2" Inertia="8" InertiaAcc="8" MaxGroundVelocity="16"/>
+       <EngineParams Power="50000" MaxRPM="1200" MinRPM="60" IdleRPM="120" StartRPM="400"/>
+       <GearParams ShiftUpRPM="600" ShiftDownRPM="240" DirectionSwitchRPM="10">
+        <Gears />
+       </GearParams>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Main" LayerGUID="28b0f0b8-2d2c-8919-61cd-25adaf8fcda6" Id="22e3b2b5-ede5-ae28-bfda-ab16b4952585" Name="AutoPilotShip1" Pos="355.87009,809.50079,24.070959" Rotate="0.99878913,0,0,-0.049196277" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="ecd93667-7a5b-4ddf-9e75-25f065047fdb" TypeName="Navigation::CAutoPilotShipComponent" GUID="8e93f86b-74f4-bc48-2973-f226f0823ac8" Name="" UserAdded="true">
+      <properties />
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Main" LayerGUID="28b0f0b8-2d2c-8919-61cd-25adaf8fcda6" Id="7df8d791-353a-a21d-a054-21fb6c8af9d8" Name="CryLogo" Pos="295.52045,863.23309,13.90823" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="7925bc64-521f-4a2a-9068-c9c9a1d3499e" TypeName="Cry::DefaultComponents::CParticleComponent" GUID="8732293c-b056-befc-0605-b22399fac4ce" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Enabled="true" FilePath="Particles/Overlays/cry_logo.pfx">
+       <Attributes>
+        <Attributes />
+       </Attributes>
+       <Features />
+       <SpawnParams prime="false" scale="1" countScale="1" speedScale="1" timeScale="1" spec="Default" ignoreVvisAreas="false" ignoreTerrainBlend="true" ignoreDecalBlend="true" seed="-1"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

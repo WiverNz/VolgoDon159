@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="4300b7af-2924-ff2b-4ca4-a0633473ac62">
+ <Files>
+  <File path="big_box.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="3">%ENGINE%/EngineAssets/Textures/white.dds</Path>
+  <Path usageCount="3">%ENGINE%/EngineAssets/Textures/white_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

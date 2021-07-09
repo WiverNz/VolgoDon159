@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="3857783a-4ac3-a34f-250c-27ae7e4d2c6a">
+ <Files>
+  <File path="outboard_motor.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/AAA_CRYTEK_ASSETS/props/maritime/fisher_boat/textures/outboard_motor.dds</Path>
+  <Path usageCount="1">objects/AAA_CRYTEK_ASSETS/props/maritime/fisher_boat/textures/outboard_motor_ddna.dds</Path>
+  <Path usageCount="1">objects/AAA_CRYTEK_ASSETS/props/maritime/fisher_boat/textures/metal_bumpy_dmap.dds</Path>
+ </Dependencies>
+</AssetMetadata>

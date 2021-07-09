@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="0d8c41f1-7942-41a9-5c34-bf8ef4c5341d">
+ <Files>
+  <File path="spruce_xtree_diff.dds"/>
+  <File path="spruce_xtree_diff.dds.1"/>
+  <File path="spruce_xtree_diff.dds.2"/>
+  <File path="spruce_xtree_diff.dds.3"/>
+  <File path="spruce_xtree_diff.dds.4"/>
+  <File path="spruce_xtree_diff.dds.5"/>
+  <File path="spruce_xtree_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

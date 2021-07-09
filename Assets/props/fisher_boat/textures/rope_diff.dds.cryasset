@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="686c6116-b10c-73e4-9d69-67995ec15fd9">
+ <Files>
+  <File path="rope_diff.dds"/>
+  <File path="rope_diff.dds.1"/>
+  <File path="rope_diff.dds.2"/>
+  <File path="rope_diff.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="9abf202c-76d5-8a85-deda-dcd3d3bb3740">
+ <Files>
+  <File path="g_spruce_root_a.cgf"/>
+  <File path="g_spruce_root_a_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">7</Detail>
+  <Detail name="triangleCount">3579</Detail>
+  <Detail name="vertexCount">2644</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./spruce.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

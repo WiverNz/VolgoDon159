@@ -1,0 +1,14 @@
+/cache
+/editor
+/logbackups
+/doxygen/html
+/doxygen/latex
+/solutions
+/user
+/bin/
+#!/bin/win_x64/*.dll
+/ThirdParty/googletest*/
+*.bak
+*.log
+*.dmp
+Thumbnail.png

@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="c7f86dd4-b250-e997-0525-c32770c41823" source="ship_type_507_deck_ao.tif">
+ <Files>
+  <File path="ship_type_507_deck_ao.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

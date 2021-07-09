@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="5ff0b5b5-0e89-cd9d-2224-f1efbc143f3f">
+ <Files>
+  <File path="c_beech_d_twist.cgf"/>
+  <File path="c_beech_d_twist_lod1.cgf"/>
+  <File path="c_beech_d_twist_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">425</Detail>
+  <Detail name="vertexCount">494</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./beech_bush.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

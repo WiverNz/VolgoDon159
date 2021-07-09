@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="43998282-2334-28d9-4b13-07a7a3825263">
+ <Files>
+  <File path="g_spruce_fall_stand.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">7</Detail>
+  <Detail name="triangleCount">424</Detail>
+  <Detail name="vertexCount">498</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./spruce.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

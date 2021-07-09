@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="ce4dae24-9d0c-9bcc-1f47-b0cf4abb8b88">
+ <Files>
+  <File path="buoy.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">8</Detail>
+  <Detail name="triangleCount">348</Detail>
+  <Detail name="vertexCount">254</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./buoy.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

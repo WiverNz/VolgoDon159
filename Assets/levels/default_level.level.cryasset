@@ -1,0 +1,50 @@
+<AssetMetadata version="0" type="Level" guid="1f176f20-b646-825a-4ba5-caa00e7d94a5" source="" timestamp="1615216013">
+ <Files>
+  <File path="default_level/default_level.level"/>
+ </Files>
+ <Dependencies>
+  <Path usageCount="1">%ENGINE%/EngineAssets/Shading/default.env</Path>
+  <Path>%engine%/engineassets/icons/averagememoryusage.dds</Path>
+  <Path>%engine%/engineassets/icons/highmemoryusage.dds</Path>
+  <Path>%engine%/engineassets/icons/livepreview.dds</Path>
+  <Path>%engine%/engineassets/icons/lowmemoryusage.dds</Path>
+  <Path>%engine%/engineassets/materials/fog/fogvolumebox.mtl</Path>
+  <Path>%engine%/engineassets/materials/fog/fogvolumeellipsoid.mtl</Path>
+  <Path>%engine%/engineassets/materials/fog/oceaninto.mtl</Path>
+  <Path>%engine%/engineassets/materials/fog/oceanintolowspec.mtl</Path>
+  <Path>%engine%/engineassets/materials/fog/oceanoutof.mtl</Path>
+  <Path>%engine%/engineassets/materials/fog/oceanoutoflowspec.mtl</Path>
+  <Path>%engine%/engineassets/materials/material_terrain_default.mtl</Path>
+  <Path>%engine%/engineassets/materials/physproxytoobig.mtl</Path>
+  <Path>%engine%/engineassets/materials/water/ocean_default.mtl</Path>
+  <Path>%engine%/engineassets/materials/water/wateroceanbottom.mtl</Path>
+  <Path>%engine%/engineassets/texturemsg/defaultnouvs.dds</Path>
+  <Path>%engine%/engineassets/texturemsg/physproxytoobig.dds</Path>
+  <Path>%engine%/engineassets/textures/grey.dds</Path>
+  <Path>%engine%/engineassets/textures/skys/night/half_moon.dds</Path>
+  <Path>config/shiptypes.xml</Path>
+  <Path>editor/resourcecache/props/volgo_don/ship_type_507_boats_ao.dds</Path>
+  <Path>editor/resourcecache/props/volgo_don/ship_type_507_deck_ao.dds</Path>
+  <Path>editor/resourcecache/props/volgo_don/ship_type_507_detali_ao.dds</Path>
+  <Path>editor/resourcecache/props/volgo_don/ship_type_507_hold_ao.dds</Path>
+  <Path>editor/resourcecache/props/volgo_don/ship_type_507_hull_ao.dds</Path>
+  <Path>editor/resourcecache/props/volgo_don/ship_type_507_interior_ao.dds</Path>
+  <Path>editor/resourcecache/props/volgo_don/ship_type_507_lights.dds</Path>
+  <Path>editor/resourcecache/props/volgo_don/ship_type_507_rubka_ao.dds</Path>
+  <Path>editor/resourcecache/props/volgo_don/ship_type_507_rubka_detali_ao.dds</Path>
+  <Path>editor/resourcecache/textures/cry_logo/logo_diff.dds</Path>
+  <Path>particles/overlays/cry_logo.pfx</Path>
+  <Path>props/volgo_don/ship_type_507_boats_ao.dds</Path>
+  <Path>props/volgo_don/ship_type_507_deck_ao.dds</Path>
+  <Path>props/volgo_don/ship_type_507_detali_ao.dds</Path>
+  <Path>props/volgo_don/ship_type_507_hold_ao.dds</Path>
+  <Path>props/volgo_don/ship_type_507_hull_ao.dds</Path>
+  <Path>props/volgo_don/ship_type_507_interior_ao.dds</Path>
+  <Path>props/volgo_don/ship_type_507_lights.dds</Path>
+  <Path>props/volgo_don/ship_type_507_rubka_ao.dds</Path>
+  <Path>props/volgo_don/ship_type_507_rubka_detali_ao.dds</Path>
+  <Path>props/volgo_don/volgo_don.cgf</Path>
+  <Path>textures/cry_logo/logo_diff.dds</Path>
+  <Path>textures/cry_logo/logo_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

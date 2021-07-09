@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="ba5fbca1-14c9-477d-e874-081ead059344">
+ <Files>
+  <File path="pine_xsmall_lod.dds"/>
+  <File path="pine_xsmall_lod.dds.1"/>
+  <File path="pine_xsmall_lod.dds.2"/>
+  <File path="pine_xsmall_lod.dds.3"/>
+  <File path="pine_xsmall_lod.dds.4"/>
+  <File path="pine_xsmall_lod.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

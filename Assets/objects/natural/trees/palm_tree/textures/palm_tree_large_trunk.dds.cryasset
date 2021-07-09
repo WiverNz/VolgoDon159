@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="9fee4869-3596-383a-701d-0e16ffbf32cb">
+ <Files>
+  <File path="palm_tree_large_trunk.dds"/>
+  <File path="palm_tree_large_trunk.dds.1"/>
+  <File path="palm_tree_large_trunk.dds.2"/>
+  <File path="palm_tree_large_trunk.dds.3"/>
+  <File path="palm_tree_large_trunk.dds.4"/>
+  <File path="palm_tree_large_trunk.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

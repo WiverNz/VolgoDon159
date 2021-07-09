@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="1f0bf275-195c-1e7d-21b3-4cc941a7c6b2">
+ <Files>
+  <File path="distance_trees_a.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">1</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/trees/distance_trees/hill_trees_a_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

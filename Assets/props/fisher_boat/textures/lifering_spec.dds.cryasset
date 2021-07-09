@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="78ae04dc-f978-92f0-5509-cd641949c9e3">
+ <Files>
+  <File path="lifering_spec.dds"/>
+  <File path="lifering_spec.dds.1"/>
+  <File path="lifering_spec.dds.2"/>
+  <File path="lifering_spec.dds.3"/>
+  <File path="lifering_spec.dds.4"/>
+  <File path="lifering_spec.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

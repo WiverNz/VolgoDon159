@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="2e5ce12d-395d-b1a1-dbdf-72baa921a9e4">
+ <Files>
+  <File path="spruce_leaf_semi_snowy_diff.dds"/>
+  <File path="spruce_leaf_semi_snowy_diff.dds.1"/>
+  <File path="spruce_leaf_semi_snowy_diff.dds.2"/>
+  <File path="spruce_leaf_semi_snowy_diff.dds.3"/>
+  <File path="spruce_leaf_semi_snowy_diff.dds.4"/>
+  <File path="spruce_leaf_semi_snowy_diff.dds.5"/>
+  <File path="spruce_leaf_semi_snowy_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

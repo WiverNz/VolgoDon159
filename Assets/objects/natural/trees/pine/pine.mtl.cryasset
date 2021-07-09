@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="Material" guid="dd309b8b-ccd6-7f9c-decc-6b12a3ce4659">
+ <Files>
+  <File path="pine.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">7</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/trees/pine/textures/lod.dds</Path>
+  <Path usageCount="1">objects/natural/trees/pine/textures/pine_trunk.dds</Path>
+  <Path usageCount="1">objects/natural/trees/pine/textures/pine_trunk_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/wood/wood_fine_detail.dds</Path>
+  <Path usageCount="1">objects/natural/trees/pine/textures/pine_leaves_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/pine/textures/pine_leaves_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/trees/pine/textures/pine_leaves_sss.dds</Path>
+ </Dependencies>
+</AssetMetadata>

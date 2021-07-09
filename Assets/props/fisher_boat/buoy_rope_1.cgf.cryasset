@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="443d71af-51bf-4ee5-a651-2f862fe143e3">
+ <Files>
+  <File path="buoy_rope_1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">696</Detail>
+  <Detail name="vertexCount">413</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./fishing_boat.mtl</Path>
+ </Dependencies>
+</AssetMetadata>
