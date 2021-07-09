@@ -1,4 +1,0 @@
-var class_cry_g_test_details_1_1_c_binary_expression_3_01_e_binary_op_1_1_greater_than_00_01_t1_00_01_t2_01_4 =
-[
-    [ "Evaluate", "class_cry_g_test_details_1_1_c_binary_expression_3_01_e_binary_op_1_1_greater_than_00_01_t1_00_01_t2_01_4.html#a10db2855045ba22654e0b306c87e1b41", null ]
-];
