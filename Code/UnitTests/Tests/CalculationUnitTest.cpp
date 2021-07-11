@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #ifdef CRY_TESTING
 
+#include "TestCommon/common.h"
 #ifdef USE_STUB_TESTS
 #include "StubCryTest/PluginTestSystem.h"
 #include "TestCommon/UnitTest.h"

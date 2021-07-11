@@ -38,8 +38,9 @@ bool SStatusShip::Serialize(Serialization::IArchive& ar)
 	"DepthValue"
 	*/
 	ar.openBlock("SStatusShip", "main");
-	pfx2::SFloat steerDegrees = CryTransform::CAngle::FromRadians(steer).ToDegrees();
-	SmallValueSerializationFixer(ar, steerDegrees, "CourseDegree");
+	SmallValueSerializationFixer(ar, steer, "Steer");
+	pfx2::SFloat courseDegree = CryTransform::CAngle::FromRadians(steer).ToDegrees();
+	SmallValueSerializationFixer(ar, courseDegree, "CourseDegree");
 	SmallValueSerializationFixer(ar, speed, "Speed");
 	// CryTransform::CAngle::FromDegrees(steerDegrees).ToRadians();
 	SmallValueSerializationFixer(ar, rudder, "RudderValue");

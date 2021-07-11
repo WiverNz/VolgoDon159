@@ -16,6 +16,8 @@
 
 #include "TestComponents/UnitTestPlayer/UnitTestPlayer.h"
 
+#include "TestCommon/common.h"
+
 #ifdef USE_STUB_TESTS
 #include "StubCryTest/PluginTestSystem.h"
 #include "TestCommon/UnitTest.h"
@@ -213,13 +215,21 @@ void CUnitTestPlugin::RunAllTests() const
 		CRY_ASSERT(false, "The test system was not initialized");
 		return;
 	}
+
+	const string cmdLine = string(gEnv->szCmdLine);
+	bool runOnlyConsoleTests = false;
+	if (cmdLine.find("--console") != std::string::npos)
+	{
+		runOnlyConsoleTests = true;
+	}
+
 	DynArray<string> testNamesForRun;
 	std::map<string, std::set<CryTest::CTestFactory*>> testsByModuleName;
 	DynArray<CryTest::CTestFactory*> testFactories = gEnv->pSystem->GetITestSystem()->GetFactories();
 	for (CryTest::CTestFactory* pFactory : testFactories)
 	{
 		const string testModule = pFactory->GetTestInfo().module;
-		if (testModule == TESTS_MODULE_NAME)
+		if ((testModule == TESTS_MODULE_NAME && !runOnlyConsoleTests) || testModule == TESTS_CONSOLE_MODULE_NAME)
 		{
 			const string testName = pFactory->GetTestInfo().name;
 			testsByModuleName[testModule].insert(pFactory);

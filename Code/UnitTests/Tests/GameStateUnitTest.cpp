@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #ifdef CRY_TESTING
 
+#include "TestCommon/common.h"
 #ifdef USE_STUB_TESTS
 #include "StubCryTest/PluginTestSystem.h"
 #include "TestCommon/UnitTest.h"
@@ -57,7 +58,7 @@ CRY_TEST_SUITE(GameStateTestsSuit)
 		GameModules::IGameStateContextPtr m_gameStateContext = nullptr;
 	};
 	
-	CRY_TEST_WITH_FIXTURE(GameState_switching_test, CGameStateFixture, m_TestInfo.module = TESTS_MODULE_NAME, timeout = 20, game = true, editor = false)
+	CRY_TEST_WITH_FIXTURE(GameState_switching_test, CGameStateFixture, m_TestInfo.module = TESTS_CONSOLE_MODULE_NAME, timeout = 20, game = true, editor = false)
 	{
 		commands =
 		{

@@ -34,6 +34,7 @@ add_sources("TestCommon_uber.cpp"
     PROJECTS UnitTests
     SOURCE_GROUP "TestCommon"
 		"TestCommon/Printer.cpp"
+		"TestCommon/common.h"
 		"TestCommon/UnitTest.h"
 )
 add_sources("TestComponents_uber.cpp"
@@ -147,6 +148,6 @@ add_custom_command(TARGET UnitTests POST_BUILD
                    ${CMAKE_CURRENT_SOURCE_DIR}/UnitTests.cryproject ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/UnitTests.cryproject)
 add_custom_command(TARGET UnitTests POST_BUILD
                    COMMAND ${CMAKE_COMMAND} -E copy_directory
-                   ${CMAKE_CURRENT_SOURCE_DIR}/assets ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/assets)
+                   ${PROJECT_DIR}/assets ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/assets)
 
 #END-CUSTOM

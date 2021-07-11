@@ -10,18 +10,3 @@
 #include <CrySystem/ISystem.h>
 #include <Cry3DEngine/I3DEngine.h>
 #include <CryNetwork/ISerialize.h>
-
-#define TESTS_MODULE_NAME "VolgoDon"
-
-//////////////////////////////////////////////////////////////////////////
-//! Reports a Game Warning to validator with WARNING severity.
-inline void GameWarning(const char* format, ...)
-{
-	if (!format)
-		return;
-
-	va_list args;
-	va_start(args, format);
-	GetISystem()->WarningV(VALIDATOR_MODULE_GAME, VALIDATOR_WARNING, 0, 0, format, args);
-	va_end(args);
-}
