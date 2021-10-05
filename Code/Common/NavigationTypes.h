@@ -1,10 +1,12 @@
 #pragma once
 
+#include "common/CryCommon.h"
+
 #include <CryPhysics/physinterface.h>
 #include <CrySerialization/Decorators/Resources.h>
 
 // This stub fixed the issue of serializing float values from -0.99f to +0.99f (The string ends after a float value)
-#include "StubFeatures/ParamTraits.h"
+#include "common/StubFeatures/ParamTraits.h"
 
 //! \namespace Navigation
 //! \brief The ship navigation namespace. It shouldn't have any dependencies with other modules
@@ -26,15 +28,16 @@ struct SStatusShip : /*pe_status*/ public Serialization::SStruct
 	//! \return {string} Json string with all parameters
 	string GetJsonString() const;
 
-	pfx2::SFloat steer = 0.0f;				//!< current steering angle
-	pfx2::SFloat rudder = 0.0f;				//!< rudder angle
-	bool anchorBrake = false;				//!< nonzero if handbrake is on
-	pfx2::SFloat leftEngineRPM = 0.0f;		//!< left engine rpm
-	pfx2::SFloat rightEngineRPM = 0.0f;		//!< right engine rpm
-	Vec3 velocity;							//!< velocity
-	pfx2::SFloat speed = 0.0f;				//!< speed
-	int leftGear = 0;						//!< left gear
-	int rightGear = 0;						//!< right gear
+	pfx2::SFloat steer = 0.0f;													//!< current steering angle
+	pfx2::SFloat rudder = 0.0f;													//!< rudder angle
+	CryTransform::CAngle course = CryTransform::CAngle::FromDegrees(0.0f);		//!< ship course
+	Vec3 velocity;																//!< velocity
+	bool anchorBrake = false;													//!< nonzero if handbrake is on
+	pfx2::SFloat leftEngineRPM = 0.0f;											//!< left engine rpm
+	pfx2::SFloat rightEngineRPM = 0.0f;											//!< right engine rpm
+	pfx2::SFloat speed = 0.0f;													//!< speed
+	int leftGear = 0;															//!< left gear
+	int rightGear = 0;															//!< right gear
 };
 
 //! \struct SShipParameters

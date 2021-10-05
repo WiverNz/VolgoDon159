@@ -127,7 +127,7 @@ CRY_TEST_SUITE(CalculationTestsSuit)
 			}
 			for (int i = 0; i < 10; i++)
 			{
-				calculator.Calculate();
+				calculator.Calculate(m_frameTime);
 				currPos.z = 0;
 				currPos = calculator.GetNextPos(currPos);
 				const string currPosText = string().Format("point %d (%f, %f, %f)", i, currPos.x, currPos.y, currPos.z);
@@ -178,6 +178,7 @@ CRY_TEST_SUITE(CalculationTestsSuit)
 		TestComponents::CTestGridComponent* m_pTestGrid;
 		TestComponents::CTestTraceComponent* m_pTestTrace;
 		const Vec3 m_startTracePos = Vec3(900, 610, 18);
+		float m_frameTime = 1.0f;
 	};
 
 	CRY_TEST_WITH_FIXTURE(Calculation_initial_test, CCalculationFixture, m_TestInfo.module = TESTS_MODULE_NAME, timeout = 200, game = true, editor = false)
