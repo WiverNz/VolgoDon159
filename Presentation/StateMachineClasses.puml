@@ -1,0 +1,62 @@
+@startuml GameStateClasses
+skinparam backgroundcolor transparent
+
+enum EGameState {
+	GamePaused
+	GameRunning
+	GameOver
+}
+
+abstract class IGameState {
+	EGameState m_gameState
+    EGameState GetState()
+	Pause(IGameStateContext*)
+	Resume(IGameStateContext*)
+	EndGame(IGameStateContext*)
+}
+
+IGameState *- EGameState : Debug information
+
+abstract class IGameStateContext {
+	Pause()
+	Resume()
+	EndGame()
+    SetState(IGameStatePtr state)
+}
+
+class CGameStateContext {
+	Pause()
+	Resume()
+	EndGame()
+	SetState(IGameStatePtr state)
+	IGameStatePtr m_gameContextState
+}
+
+CGameStateContext o- IGameState : SharedPtr
+IGameStateContext <|-- CGameStateContext
+
+class CGamePausedState {
+	Pause(IGameStateContext* stateContext)
+	Resume(IGameStateContext* stateContext)
+	EndGame(IGameStateContext* stateContext)
+}
+
+IGameState <|-- CGamePausedState
+
+class CGameRunningState {
+	Pause(IGameStateContext* stateContext)
+	Resume(IGameStateContext* stateContext)
+	EndGame(IGameStateContext* stateContext)
+}
+
+IGameState <|-- CGameRunningState
+
+class CGameOverState {
+	Pause(IGameStateContext* stateContext)
+	Resume(IGameStateContext* stateContext)
+	EndGame(IGameStateContext* stateContext)
+}
+
+IGameState <|-- CGameOverState
+
+@enduml

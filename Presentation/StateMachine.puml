@@ -1,0 +1,25 @@
+@startuml GameStateMachine
+skinparam backgroundcolor transparent
+
+GamePaused : User menu
+GameRunning : Rendering, handling user buttons
+GameOver : Exit game
+
+state GamePaused {
+  [*] --> GameRunning : Start/Resume
+  [*] --> GameOver : End game
+}
+
+
+state GameRunning {
+  [*] --> GamePaused : Pause the game\nShow user menu
+}
+
+state GameOver {
+
+}
+
+[*] --> GamePaused
+GameOver --> [*] : Deleting current\n map from memory
+
+@enduml
